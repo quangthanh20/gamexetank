@@ -2,7 +2,7 @@
 function loadServer() {
     //if ( playername == '' ) {
     // Initialise socket connection
-    socket = io.connect("server-gamexetank.herokuapp.com", {port: 8000, transports: ["websocket"]});
+    socket = io.connect("server-gamexetank.herokuapp.com", { transports: ["websocket"]});
     // Socket connection successful
 	socket.on("connect", onSocketConnected);
    // }
