@@ -2,6 +2,13 @@
   "name": "gamexetank.herokuapp.com",
   "description": "gamexetank.herokuapp.com",
   "version": "0.0.1",
+  "require" : {
+	"silex/silex": "~1.1",
+	"monolog/monolog": "~1.7"
+  },
+  "require-dev": {
+	"heroku/heroku-buildpack-php": "*"
+  },
   "dependencies": {
     "express": "~4.9.x",   
     "socket.io": "0.9.6"
