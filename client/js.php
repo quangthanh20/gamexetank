@@ -1,5 +1,5 @@
 
-<script src="http://gamexetank.herokuapp.com:8000/socket.io/socket.io.js" type="text/javascript"></script>  
+<script src="server-gamexetank.herokuapp.com/socket.io/socket.io.js" type="text/javascript"></script>  
 <script src="library/js/phaser.js" type="text/javascript"></script>
 <!--<script src="library/js/require.js" type="text/javascript"></script>-->
 

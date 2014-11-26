@@ -10,7 +10,7 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
   <title>HTML5 Game Programming Test</title>  
-  <script src="http://gamexetank.herokuapp.com:8000/socket.io/socket.io.js" type="text/javascript"></script>
+  <script src="server-gamexetank.herokuapp.com/socket.io/socket.io.js" type="text/javascript"></script>
   <script src="library/js/jquery.min.js"></script>
   <script src="client/js/script.js" type="text/javascript"></script> 
   <style>
