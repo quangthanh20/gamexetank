@@ -1,7 +1,7 @@
  ///////////////////////////////////////////////////////////////////////Network Functions////////////////////
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////
 	 
-      var socket = io.connect('server-gamexetank.herokuapp.com:8000');
+      var socket = io.connect('server-gamexetank.herokuapp.com');
       
       // call the server-side function 'adduser' and send one parameter (value of prompt)
       socket.emit('rooms get');
